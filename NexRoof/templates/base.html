@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Nexroof Products | Stone-Coated Roof Tile | solar panels</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header>
+        <a href="#home" class="logo">
+            <img src="" alt="Nexroof Products Logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#product">Stone-Coated Roofs</a></li>
+                <li><a href="#product">Color Steel Roofs</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="header-buttons">
+            <button class="quote-button">Get Quote</button>
+            <button class="cart-button">Cart</button>
+            <button class="account-button">Account</button>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <h1>NEXROOF | Desing Your </h1>
+            <p></p>
+            <button class="quote-button">Contact Us</button>
+        </section>
+        <section id="product">
+            <div class="product">
+                <img src="classic.jpg" alt="Classic Tile">
+                <h3>Classic-Profile</h3>
+                <p>A timeless traditional style roof profile that complements any architerial style.</p>
+                <button class="quote-button">Learn More</button>
+            </div>
+            <div class="product">
+                <img src="shingle.jpg" alt="Shingle Tile">
+                <h3>Shingle Profile</h3>
+                <p>A rugged and textured profile that mimics the look of traditional shingle roofs.</p>
+                <button class="quote-button">Learn More</button>
+            </div>
+            <div class="product">
+                <img src= "milano.jpg" alt="Milano Tile">
+                <h3>Milano Profile</h3>
+                <p>An elegant and sophisticated profile inspired by Mediterranean architerial</p>
+                <button class="quote-button">Learn More</button>
+            </div>
+            <div class="product">
+                <img src= "roman.jpg" alt="Roman Tile">
+                <h3>Roman Profile</h3>
+                <p>A bold and distinctive profile that adds a touch of grandeur to any structure.</p>
+                <button class="quote-button">Learn More</button>
+            </div>
+        </section>
+        <section id="reviews">
+            <h2>Customer Reviews</h2>
+            <div class="review">
+                <h3>David Mutuku</h3>
+                <p>"I am extremely satisfied with the roof supplied by Nexroof, the quality and durability exceeded my expectations."</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For inquiries or to requet a qoute, please fill out the form below or reach out to us via phone or email.</p>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button class="quote-button">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Phone: 0743557325</p>
+                <p>Email: info@nexroofkenya.com</p>
+            </div>
+        </section>cd
+        <section id="quote-form" class="hidden">
+            <h2>Get a Quote</h2>
+            <form id="qoute-form">
+                <label for="product">Select Product</label>
+                <select name="product" id="product">
+                    <option value="classic">Classic-Profile</option>
+                    <option value="shingle">Shingle</option>
+                    <option value="milano">Milano</option>
+                    <option value="roman">Roman</option>
+                </select>
+                <br><br>
+                <label for="color">Select Color:</label>
+                <select name="color" id="color">
+                    <option value="maroon">Maroon</option>
+                    <option value="charcoal">Charcoal Grey</option>
+                    <option value="red">Tile Red</option>
+                    <option value="green">Green</option>
+                </select>
+                <br><br>
+                <label for="quantity">Quantity (in pcs):</label>
+                <input type="number" name="quantity" id="quantity" min="1" required>
+                <br><br>
+                <label for="delivery">Delivery Option:</label>
+                <select name="delivery" id="delivery">
+                    <option value="pickup">Pickup</option>
+                    <option value="delivery">Delivery</option>
+                </select>
+                <br><br>
+                <label for="location">Select Location:</label>
+                <input type="text" name="location" id="location" required>
+                <br><br>
+                <label for="first-name">First Name:</label>
+                <input type="text" name="first-name" id="first-name" required>
+                <br><br>
+                <label for="last-name">Last Name:</label>
+                <input type="text" name="last-name" id="last-name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <br><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone" required>
+                <br><br>
+                <button type="submit" id="submit-button">Order Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Nexroof Kenya. All rights reserved.</p>
+    </footer>
+</body>
+</html>
